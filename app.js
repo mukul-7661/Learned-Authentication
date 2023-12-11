@@ -1,6 +1,5 @@
-require("dotenv").config();
-const express = require("express");
-const ejs = require("ejs");
+quire("dotenv").config();
+const express = require("express");st ejs = require("ejs");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 mongoose.set('strictQuery', true);
